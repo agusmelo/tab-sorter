@@ -1,8 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Extension Template",
+  "name": "Tab sorter test",
   "version": "1.0.0",
   "description": "A minimal Chrome extension template (MV3) with popup, options, content script, and background service worker.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_title": "Extension Template"
