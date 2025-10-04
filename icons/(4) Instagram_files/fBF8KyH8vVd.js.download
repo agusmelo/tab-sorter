@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("IGDInboxSlideMessagesConnection",["CometRelay","FBLogger","IGDGetThread"],(function(a,b,c,d,e,f,g){"use strict";var h="IGDInbox__slide_messages";function a(a){return d("CometRelay").ConnectionHandler.getConnectionID(d("IGDGetThread").GetXFBIGDirectViewerThreadDataID(a),h)}function b(a){a=d("CometRelay").ConnectionHandler.getConnection(a,h);a==null&&c("FBLogger")("igd_web").warn("IGDInboxSlideMessagesConnection: Messages connection record is null");return a}g.IGD_INBOX_SLIDE_MESSAGES_CONNECTION_KEY=h;g.getConnectionID=a;g.getConnectionNullable=b}),98);

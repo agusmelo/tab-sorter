@@ -1,0 +1,6 @@
+;/*FB_PKG_DELIM*/
+
+__d("AudioClipsTranscriptionButtonClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("1004");b=d("FalcoLoggerInternal").create("audio_clips_transcription_button_click",a);e=b;g["default"]=e}),98);
+__d("AudioClipsTranscriptionCompleteFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("1097");b=d("FalcoLoggerInternal").create("audio_clips_transcription_complete",a);e=b;g["default"]=e}),98);
+__d("AudioClipsTranscriptionExpandClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("1098");b=d("FalcoLoggerInternal").create("audio_clips_transcription_expand_click",a);e=b;g["default"]=e}),98);
+__d("AudioClipsTranscriptionFailureFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("1279");b=d("FalcoLoggerInternal").create("audio_clips_transcription_failure",a);e=b;g["default"]=e}),98);

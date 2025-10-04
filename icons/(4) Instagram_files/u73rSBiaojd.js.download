@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("IGD30DayAgoTimestampMs.relayprovider",[],(function(a,b,c,d,e,f){"use strict";a=30*24*60*60*1e3;b=new Date().getTime();var g=b-a;c={get:function(){return g.toString()}};f["default"]=c}),66);
+__d("PolarisDirectInboxMobileCreateThreadRoot.entrypoint",["JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){return{queries:{}}},root:c("JSResourceForInteraction")("PolarisDirectInboxMobileCreateThreadRoot.react").__setRef("PolarisDirectInboxMobileCreateThreadRoot.entrypoint")};g["default"]=a}),98);
