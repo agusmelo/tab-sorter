@@ -1,3 +1,5 @@
+import { sortTabs } from "./actions.js";
+
 // background service worker (MV3)
 chrome.runtime.onInstalled.addListener(() => {
   console.log('Extension installed');
@@ -6,4 +8,10 @@ chrome.runtime.onInstalled.addListener(() => {
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   console.log('BG received message', message);
   if (message && message.ping) sendResponse({ pong: true });
+});
+
+chrome.commands.onCommand.addListener((command) => {
+  if (command === "sort-action") {
+    sortTabs();
+  }
 });
